@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "I7hBtdoxoh3rye9SQ3tz8a1Zpq98UX2ZAz6+LkDppePR4+lBhgLWbz8jbdHaMTZm1x4LJha1drCNohnYTH8U+A==",
+  "dgSpecHash": "Fj0jwdvbEp6C9+V5l9rwt0mUO1NxTomaImo263rJfvV3YOrKKuP/1q7JeSaTJYOtVhoocSXB5dmMQrsZOzoVKw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\CursoXamarin2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.iOS\\App02_TipoPaginaXF.iOS.csproj",
+  "projectFilePath": "C:\\projetos\\CursoXamarinForms2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.iOS\\App02_TipoPaginaXF.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gilberto.madeira\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }

@@ -94,8 +94,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\drawable\pages.png" />
-    <AndroidResource Include="Resources\drawable\play.png" />
+    <Content Include="Resources\drawable\play.png" />
     <Content Include="Resources\drawable\xamarin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties TriggeredFromHotReload="False" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

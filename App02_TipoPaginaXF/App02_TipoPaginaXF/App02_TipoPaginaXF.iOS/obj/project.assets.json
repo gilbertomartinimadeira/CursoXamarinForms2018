@@ -978,24 +978,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gilberto.madeira\\.nuget\\packages\\": {},
+    "C:\\Users\\gilbe\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\CursoXamarin2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.iOS\\App02_TipoPaginaXF.iOS.csproj",
+      "projectUniqueName": "C:\\projetos\\CursoXamarinForms2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.iOS\\App02_TipoPaginaXF.iOS.csproj",
       "projectName": "App02_TipoPaginaXF.iOS",
-      "projectPath": "C:\\Projetos\\CursoXamarin2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.iOS\\App02_TipoPaginaXF.iOS.csproj",
-      "packagesPath": "C:\\Users\\gilberto.madeira\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\CursoXamarin2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.iOS\\obj\\",
+      "projectPath": "C:\\projetos\\CursoXamarinForms2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.iOS\\App02_TipoPaginaXF.iOS.csproj",
+      "packagesPath": "C:\\Users\\gilbe\\.nuget\\packages\\",
+      "outputPath": "C:\\projetos\\CursoXamarinForms2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\gilberto.madeira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gilbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1010,8 +1010,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Projetos\\CursoXamarin2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.csproj": {
-              "projectPath": "C:\\Projetos\\CursoXamarin2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.csproj"
+            "C:\\projetos\\CursoXamarinForms2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.csproj": {
+              "projectPath": "C:\\projetos\\CursoXamarinForms2018\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF\\App02_TipoPaginaXF.csproj"
             }
           }
         }

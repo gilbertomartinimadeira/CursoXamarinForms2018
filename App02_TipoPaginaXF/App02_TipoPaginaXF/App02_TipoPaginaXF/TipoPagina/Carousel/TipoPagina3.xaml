@@ -10,7 +10,7 @@
                 HorizontalOptions="Center" />
             <Button Image="play.png" 
                     BackgroundColor="Transparent" 
-                    
+                    Clicked="MudarPagina"
                     />
         </StackLayout>
     </ContentPage.Content>
