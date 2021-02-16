@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App04_Xamarin.Pages.Perfil">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            <RelativeLayout VerticalOptions="Start" HeightRequest="300" >
+                <Image Source="fundo.jpg" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"></Image>
+                <Image Source="profile.png" WidthRequest="120" x:Name="perfil"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant=-60}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.2}"></Image>
+
+                <Label Text="Gilberto Martini" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=perfil, Property=X, Factor=1}"
+                                               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=perfil, Property=Y, Factor=1,Constant=180}"></Label>
+            </RelativeLayout>
+            <Grid BackgroundColor="#0d1F2D" HeightRequest="120" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <Label Text="37" TextColor="White" FontSize="32"></Label>
+                    <Label Text="anos" TextColor="White" FontSize="12" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <Label Text="28/04/1983" TextColor="White" FontSize="32"></Label>
+                    <Label Text="nasceu" TextColor="White" FontSize="12" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+            </Grid>
+            <StackLayout Padding="30" VerticalOptions="FillAndExpand">
+                <Label Text="Silvio Santos Ipsum Ma você, topa ou não topamm. Ma vejam só, vejam só. \n Ma o Silvio Santos Ipsum é muitoam interesanteam. Com ele ma você vai gerar textuans ha haae. Boca sujuam... sem vergonhuamm. Vem pra lá, mah você vai pra cá.\n Agora vai, agora vem pra láamm. Ma! Ao adquirir o carnê do Baú, você estará concorrendo a um prêmio de cem mil reaisam. Eu só acreditoammmm.... Vendoammmm."/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

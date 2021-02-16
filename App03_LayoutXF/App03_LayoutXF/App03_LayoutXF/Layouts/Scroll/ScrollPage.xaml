@@ -3,10 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App03_LayoutXF.Layouts.Scroll.ScrollPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView Orientation="Both">
+            <StackLayout HeightRequest="1000" WidthRequest="1000" BackgroundColor="#CCC">
+                <Label Text="Welcome to Xamarin.Forms!"
+                       />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App04_Xamarin.Pages.Xamarin">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            <StackLayout BackgroundColor="#FFC926" Padding="30">
+                <Image Source="xamarin.png" HorizontalOptions="Center" VerticalOptions="Center"></Image>
+            </StackLayout>
+            <StackLayout BackgroundColor="#0d1F2D" HeightRequest="80" Padding="30">
+                <Label Text="Xamarin" VerticalOptions="Center" 
+                       HorizontalOptions="Center" 
+                       TextColor="White" 
+                       FontSize="48"></Label>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"  HeightRequest="100" Padding="30">
+                <RelativeLayout WidthRequest="1">
+                    <BoxView x:Name="boxOne" BackgroundColor="#0D1F2D" WidthRequest="30" HeightRequest="30"></BoxView>
+                    <BoxView x:Name="boxTwo" 
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, Property=X, ElementName=boxOne, Factor=1, Constant=15}"
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, Property=Y, ElementName=boxOne, Factor=1, Constant=15}"
+                             BackgroundColor="#25567B" WidthRequest="30" HeightRequest="30"></BoxView>
+                    <BoxView RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, Property=X, ElementName=boxTwo, Factor=1, Constant=15}"
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, Property=Y, ElementName=boxTwo, Factor=1, Constant=15}"
+                        BackgroundColor="#4E93CE" WidthRequest="30" HeightRequest="30"></BoxView>
+                </RelativeLayout>
+                <Label Text="Empresa"
+                       HorizontalOptions="CenterAndExpand"                         
+                       FontSize="48"></Label>
+            </StackLayout>
+            <StackLayout Padding="30">
+                <Label 
+                    FontSize="14"
+                    Text="Silvio Santos Ipsum Ma tem ou não tem o celular do milhãouamm? O prêmio é em barras de ouro, que vale mais que dinheiroam. Ha hai. Bem boladoam, bem boladoam. Bem gozadoam. Ma você, topa ou não topamm. É namoro ou amizadeemm? Ma! Ao adquirir o carnê do Baú, você estará concorrendo a um prêmio de cem mil reaisam. É fácil ou não éam?"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
