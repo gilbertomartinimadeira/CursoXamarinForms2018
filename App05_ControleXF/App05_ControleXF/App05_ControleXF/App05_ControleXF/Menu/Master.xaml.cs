@@ -78,5 +78,14 @@ namespace App05_ControleXF.Menu
             Detail = new Controles.ListViewPage();
         }
 
+        private void GoTableViewPage(object sender, EventArgs e)
+        {
+            Detail = new Controles.TableViewPage();
+        }
+
+        private void GoWebViewPage(object sender, EventArgs e)
+        {
+            Detail = new Controles.WebViewPage();
+        }
     }
 }

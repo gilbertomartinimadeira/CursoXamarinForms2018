@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App05_ControleXF.Modelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,20 @@ namespace App05_ControleXF.Controles
     {       
         public ListViewPage()
         {
-            InitializeComponent();           
+            InitializeComponent();
+
+            List<Pessoa> pessoas = new List<Pessoa>()
+            {
+                new Pessoa() { Nome = "Gilberto Martini" , Idade = "37"},
+                new Pessoa() { Nome = "Alan Martini" , Idade = "40"},
+                new Pessoa() { Nome = "Jéssica Martini" , Idade = "33"},
+                new Pessoa() { Nome = "João Martini" , Idade = "0"}
+            };
+
+            ListaPessoas.ItemsSource = pessoas;
+
+            
+            
         }
     }
 }

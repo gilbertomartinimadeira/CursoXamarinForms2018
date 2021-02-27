@@ -20,6 +20,8 @@
                 <Button Text="Switch" Clicked="GoSwitchPage"></Button>
                 <Button Text="Image" Clicked="GoImagePage"></Button>
                 <Button Text="ListView" Clicked="GoListViewPage"></Button>
+                <Button Text="TableView" Clicked="GoTableViewPage"></Button>
+                <Button Text="WebView" Clicked="GoWebViewPage"></Button>
 
             </StackLayout>
         </ContentPage>
