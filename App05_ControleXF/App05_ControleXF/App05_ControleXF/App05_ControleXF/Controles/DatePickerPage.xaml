@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App05_ControleXF.Controles.DatePickerPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightSkyBlue">
+
+            <StackLayout HorizontalOptions="Center" BackgroundColor="LightCyan">
+                <DatePicker 
+                    
+                    x:Name="dtInicio"
+                    Format="dd/MM/yyyy"
+                            TextColor="LightSteelBlue"
+                            DateSelected="DatePicker_DateSelected"
+                            />
+
+                <BoxView Margin="20"/>
+                <Label x:Name="lblResultado" />
+
+                <TimePicker
+                    
+                    ></TimePicker>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

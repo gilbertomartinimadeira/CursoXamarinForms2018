@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App05_ControleXF.Controles.PickerPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Picker 
+                Title="Empresas de TI"
+                BackgroundColor="LightYellow"
+                SelectedIndex="1"
+                TextColor="Blue"
+                SelectedIndexChanged="Picker_SelectedIndexChanged"
+                >
+                <Picker.Items>
+                    <x:String >Microsoft</x:String>
+                    <x:String >Oracle</x:String>
+                    <x:String >Tesla</x:String>
+                    <x:String >Google</x:String>
+                    <x:String >Facebook</x:String>
+                    <x:String >Amazon</x:String>
+
+                </Picker.Items>
+               
+            </Picker>
+
+            <Label x:Name="lblPicker" Text="Nada Selecionado"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

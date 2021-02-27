@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App05_ControleXF.Controles.ProgressBarPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <ProgressBar x:Name="Bar1" ProgressColor="Red" Progress=".5" HeightRequest="50"></ProgressBar>
+            <ProgressBar x:Name="Bar2" ProgressColor="Green" Progress=".2" HeightRequest="80"></ProgressBar>
+            <ProgressBar x:Name="Bar3" ProgressColor="Yellow" Progress=".7" HeightRequest="60"></ProgressBar>
+
+            <Button Text="Modificar Barras de progresso" Clicked="ModificarBarras"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
