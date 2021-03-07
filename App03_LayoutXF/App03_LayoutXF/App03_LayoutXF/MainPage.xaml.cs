@@ -35,5 +35,19 @@ namespace App03_LayoutXF
         {
             Navigation.PushAsync(new Layouts.Scroll.ScrollPage());
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Layouts.Stack.StackLayoutExercise());
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Layouts.Grid.GridFromDocs());
+        }
+        private void GoLabelTestPage(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Layouts.Stack.LabelTestPage());
+        }
     }
 }

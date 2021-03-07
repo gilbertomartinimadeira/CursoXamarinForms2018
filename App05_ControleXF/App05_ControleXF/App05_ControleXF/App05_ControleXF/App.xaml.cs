@@ -11,7 +11,7 @@ namespace App05_ControleXF
         {
             InitializeComponent();
 
-            MainPage = new Master();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

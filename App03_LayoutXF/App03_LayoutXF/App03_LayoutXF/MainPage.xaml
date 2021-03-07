@@ -5,10 +5,15 @@
 
     <StackLayout>
         <Button Text="StackLayoutPage" Clicked="GoStackLayoutPage"/>
+        <Button Text="StackLayoutFromDocs" Clicked="Button_Clicked"></Button>
+        <Button Text="GridLayoutPage" Clicked="GoGridLayoutPage"/>
+        <Button Text="GridFromDocsPage" Clicked="Button_Clicked_1"/>
+        
         <Button Text="AbsoluteLayoutPage" Clicked="GoAbsoluteLayoutPage"/>
         <Button Text="RelativeLayoutPage" Clicked="GoRelativeLayoutPage"/>
-        <Button Text="GridLayoutPage" Clicked="GoGridLayoutPage"/>
         <Button Text="ScrollLayoutPage" Clicked="GoScrollLayoutPage"/>
+        <Button Text="LabelTestPage" Clicked="GoLabelTestPage"/>
+
     </StackLayout>
 
 </ContentPage>
