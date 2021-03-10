@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App08_Cinemix.MainPage">
+    <StackLayout>
+        <StackLayout Style="{StaticResource cabecalho}">
+            <Label Text="CINEMIX" Style="{StaticResource tituloApp}" />
+            <Label Text="Seu App de cinema" Style="{StaticResource subtituloApp}"/>
+        </StackLayout>
+        <StackLayout Style="{StaticResource conteudo}">
+            <Label Text="Lancamento" x:Name="lblLancamento" Style="{StaticResource lancamento}"/>
+
+            <Label Text="Pantera Negra" x:Name="lblTitulo" Style="{StaticResource tituloFilme}"/>
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto">
+                        
+                    </ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Image Source="fundo.png" Aspect="AspectFill" Grid.Row="0" Grid.Column="0"/>
+                <Image Source="Poster.png" Aspect="AspectFill" Margin="0,10,0,0" Grid.Row="0" Grid.Column="0"/>
+                <StackLayout  Grid.Row="1" Grid.Column="0" Style="{StaticResource sinopse}" Margin="12">
+                    <Label Text="Conheça a história de T'Challa, príncipe do reino de Wakanda, que perde o seu pai e viaja para os Estados Unidos, onde tem contato com os Vingadores. Entre as suas habilidades estão a velocidade, inteligência e os sentidos apurados."
+                           HorizontalOptions="Center">
+                        
+                    </Label>
+                    
+                </StackLayout>
+            </Grid>
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
